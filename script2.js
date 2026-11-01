@@ -1,0 +1,21 @@
+$(document).ready(function() {
+    $("#fadeIn").click(function(){
+        $("#img1").fadeIn(800);
+    })
+    $("#fadeOut").click(function(){
+        $("#img1").fadeOut(800);
+    })
+    $("#fadeToggle").click(function(){
+        $("#img1").fadeToggle(800);
+    })
+    $("#panel").slideUp();
+    $("#slideDown").click(function(){
+            $("#panel").slideDown();
+    })
+    $("#slideUp").click(function(){
+            $("#panel").slideUp();
+    })
+    $("#slideToggle").click(function(){
+            $("#panel").slideToggle();
+    })
+})

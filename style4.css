@@ -1,0 +1,48 @@
+body {
+    background: #fff;
+    color: #0a0a0a;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background: #0a0a0a;
+}
+
+.navbar .nav-link {
+    color: #888;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #fff;
+}
+
+#task7 {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #333;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 12px;
+    border: 1px solid #333;
+    outline: none;
+}
+
+input:focus {
+    border-color: #0a0a0a;
+}
+
+p {
+    margin: 0 0 6px;
+}
+
+@media (max-width: 640px) {
+    #task7 {
+        margin: 20px;
+    }
+}
